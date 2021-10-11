@@ -44,7 +44,13 @@ function App({}) {
                         rel="stylesheet"
                       />
                     </Helmet>
-                    <Routes />
+                    <div className="flex min-h-screen">
+                      <div
+                        className={`bg-${themeContext.color} flex flex-1 items-center justify-center p-8`}
+                      >
+                        <Routes />
+                      </div>
+                    </div>
                   </>
                 );
               }}

@@ -10,7 +10,7 @@ interface ThemeContext {
 }
 
 const INITIAL_VALUE: ThemeContext = {
-  color: "",
+  color: "red",
   setColor: () => {},
 };
 
