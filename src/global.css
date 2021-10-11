@@ -1,0 +1,22 @@
+* {
+  font-family: Montserrat;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  --main-color: #1e40af;
+  --white-color: #ffffff;
+  --alert-color: #e74c3c;
+  /* #d9534f*/
+}
+
+#__next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
