@@ -7,11 +7,6 @@ module.exports = {
       primary: "#8C1C13",
       danger: "#d9534f",
     }),
-    colors: {
-      red: {
-        DEFAULT: "#8C1C13",
-      },
-    },
     extend: {},
   },
   variants: {

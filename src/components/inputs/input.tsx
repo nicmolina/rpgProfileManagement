@@ -34,13 +34,13 @@ function TextInput({ ...props }: InputProps) {
   }, [fieldName, registerField]);
 
   return (
-    <div className={`flex flex-col w-52 ${wrapperClassname}`.trim()}>
-      <label className="mb-1" htmlFor={name}>
+    <div className={`flex flex-col w-52 mb-4 ${wrapperClassname}`.trim()}>
+      <label className={`font-bold text-${theme.secondaryColor}-600`} htmlFor={name}>
         {label}
       </label>
       <div
         className={`
-          flex border border-${theme.color}-200 rounded-md 
+          flex border border-solid bg-white border-${theme.secondaryColor}-600 rounded-md 
           p-2 w-full items-center
         `}
       >
@@ -48,7 +48,7 @@ function TextInput({ ...props }: InputProps) {
         <input
           disabled={disable}
           style={{width: '100%'}}
-          className={`outline-none border-none ml-2`}
+          className={`outline-none bg-white border-none ml-2`}
           name={name}
           ref={inputRef}
           {...rest}

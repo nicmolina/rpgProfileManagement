@@ -46,7 +46,7 @@ function App({}) {
                     </Helmet>
                     <div className="flex min-h-screen">
                       <div
-                        className={`bg-${themeContext.color} flex flex-1 items-center justify-center p-8`}
+                        className={`bg-gray-900 flex flex-1 items-center justify-center p-8`}
                       >
                         <Routes />
                       </div>

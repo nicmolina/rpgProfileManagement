@@ -2086,12 +2086,19 @@
     "@typescript-eslint/types" "4.15.2"
     "eslint-visitor-keys" "^2.0.0"
 
-"@unform/core@^2.1.6":
+"@unform/core@^2.1.6", "@unform/core@2.1.6":
   "integrity" "sha512-coz9rOS1Y+0zygxTTQB+hY1HJ5ee0A40KBdIy/1IdaiFGT5LhZhCWqMorFh8KcqY3J+SInrpGDMmJYObsjEW9w=="
   "resolved" "https://registry.npmjs.org/@unform/core/-/core-2.1.6.tgz"
   "version" "2.1.6"
   dependencies:
     "dot-object" "^2.1.4"
+
+"@unform/web@^2.1.6":
+  "integrity" "sha512-EawnCaIYcF7UwbRmYn9k+KQBCkrH5nQjd5IGQL3rKZ7tSQNADenfuPUuBmRFE3mOBcIiIUgcYl0PMK5XFj5zFA=="
+  "resolved" "https://registry.npmjs.org/@unform/web/-/web-2.1.6.tgz"
+  "version" "2.1.6"
+  dependencies:
+    "@unform/core" "2.1.6"
 
 "@webassemblyjs/ast@1.9.0":
   "integrity" "sha512-C6wW5L+b7ogSDVqymbkkvuW9kruN//YisMED04xzeBBqjHa2FYnmvOlS6Xj68xWQRgWvI9cIglsjFowH/RJyEA=="
@@ -9632,7 +9639,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^17.0.2", "react-dom@>=16":
+"react-dom@*", "react-dom@^17.0.2", "react-dom@>=16", "react-dom@>=16.8.0":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
